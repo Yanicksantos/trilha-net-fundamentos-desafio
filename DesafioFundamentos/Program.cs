@@ -39,6 +39,7 @@ while (exibirMenu)
     switch (opcao)
     {
         case "1":
+            Console.WriteLine($"IMPORTANTE!! Custo Estacionamento: {precoInicial:C} -  acrescido {precoPorHora:C} por hora.\n");
             es.AdicionarVeiculo();
             break;
 
